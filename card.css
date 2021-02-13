@@ -1,0 +1,56 @@
+body {
+    font-family: 'Bitter', serif;
+    background: #1C1B17;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(244, 146, 161)
+
+}
+
+img {
+    width: 700px;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+}
+.images {
+    display: flex;
+    width: 700px;
+    margin: 75px auto;
+    flex-direction: column;
+}
+
+.images img {
+    margin-top: 50px;
+    width: 700px;
+}
+
+.reasons ul {
+    list-style-type: none;
+    color:rgb(244, 146, 161);
+    text-align: center;
+}
+
+.reasons ul li {
+    margin-top: 20px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 1024px) {
+    .images {
+        width: 300px;
+    }
+    
+    .images img{
+        width: 300px;
+    }
+}
